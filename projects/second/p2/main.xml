@@ -1,0 +1,11 @@
+<xml version="1.0">
+    <name>name2</name>
+    <address>address2</address>
+    <thumbnail>
+        <pic name="service1.jpg" desc="" index="1"/>
+    </thumbnail>
+    <gallery>
+        <pic name="service1.jpg" desc="" index="1"/>
+        <pic name="service2.jpg" desc="" index="2"/>
+    </gallery>
+</xml>

@@ -1,0 +1,6 @@
+<xml version="1.0">
+    <pic name="slide1.jpg" desc="" index="1" active="yes"/>
+    <pic name="slide2.jpg" desc="" index="2" active="no"/>
+    <pic name="slide3.jpg" desc="" index="3" active="no"/>
+    <pic name="slide4.jpg" desc="" index="4" active="no"/>
+</xml>

@@ -1,0 +1,7 @@
+<xml version="1.0">
+    <caption>First level project</caption>
+    <projects>
+        <project name="p1">aaaa</project>
+        <project name="p2">vvvvv</project>
+    </projects>
+</xml>
