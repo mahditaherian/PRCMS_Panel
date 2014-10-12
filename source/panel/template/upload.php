@@ -1,6 +1,7 @@
 <?php
 
-$output_dir = $_SERVER['DOCUMENT_ROOT'].'/PRCMS_Panel/upload/';
+$realOutput_dir = $_SERVER['DOCUMENT_ROOT'] . '/PRCMS_Panel/upload/';
+//$output_dir = $_SERVER['REMOTE_HOST'] . '/PRCMS_Panel/upload/';
 if (isset($_FILES["myfile"])) {
     $ret = array();
 
@@ -17,10 +18,10 @@ if (isset($_FILES["myfile"])) {
             $ImageExt = substr($ImageName, strrpos($ImageName, '.'));
             $ImageExt = str_replace('.', '', $ImageExt);
             $ImageName = preg_replace("/\.[^.\s]{3,4}$/", "", $ImageName);
-            $NewImageName = $ImageName.'.'.$ImageExt;
+            $NewImageName = $ImageName . '.' . $ImageExt;
 
-            move_uploaded_file($_FILES["myfile"]["tmp_name"], $output_dir . $NewImageName);
-            $ret[$fileName] = $output_dir . $NewImageName;
+            move_uploaded_file($_FILES["myfile"]["tmp_name"], $realOutput_dir . $NewImageName);
+            $ret["fileName"] = $realOutput_dir . $NewImageName;
         } else {
             $fileCount = count($_FILES["myfile"]['name']);
             for ($i = 0; $i < $fileCount; $i++) {
@@ -32,9 +33,9 @@ if (isset($_FILES["myfile"])) {
                 $ImageExt = substr($ImageName, strrpos($ImageName, '.'));
                 $ImageExt = str_replace('.', '', $ImageExt);
                 $ImageName = preg_replace("/\.[^.\s]{3,4}$/", "", $ImageName);
-                $NewImageName = $ImageName.'.'.$ImageExt;
-                $ret[$NewImageName] = $output_dir . $NewImageName;
-                move_uploaded_file($_FILES["myfile"]["tmp_name"][$i], $output_dir . $NewImageName);
+                $NewImageName = $ImageName . '.' . $ImageExt;
+                move_uploaded_file($_FILES["myfile"]["tmp_name"][$i], $realOutput_dir . $NewImageName);
+                $ret["fileName"] = $realOutput_dir . $NewImageName;
             }
         }
     }

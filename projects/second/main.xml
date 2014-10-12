@@ -1,7 +1,0 @@
-<xml version="1.0">
-    <caption>Second level project</caption>
-    <projects>
-        <project name="p1"/>
-        <project name="p2"/>
-    </projects>
-</xml>

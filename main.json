@@ -1,0 +1,45 @@
+{"homeCarousel": [], "projectSections": [
+    {
+        "caption": "first",
+        "projects": [
+            {
+                "name": "p1",
+                "address": "hfjklhjkhujyhwauil",
+                "thumbnail": {
+                    "address": "Nothing yet(thumbnail)"
+                },
+                "coordinate": {
+                    "x,y": "Nothing yet(coordinate)"
+                },
+                "gallery": []
+            },
+            {
+                "name": "p2",
+                "address": "hfjklhjkhujyhwauil",
+                "thumbnail": {
+                    "address": "Nothing yet(thumbnail)"
+                },
+                "coordinate": {
+                    "x,y": "Nothing yet(coordinate)"
+                },
+                "gallery": []
+            }
+        ]
+    },
+    {
+        "caption": "second",
+        "projects": [
+            {
+                "name": "p2",
+                "address": "hfjklhjkhujyhwauil",
+                "thumbnail": {
+                    "address": "Nothing yet(thumbnail)"
+                },
+                "coordinate": {
+                    "x,y": "Nothing yet(coordinate)"
+                },
+                "gallery": []
+            }
+        ]
+    }
+]}

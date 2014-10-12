@@ -52,8 +52,8 @@
 
         <label for="p_level">Project level:</label>
         <select name="p_level" id="p_level">
-            <option value="first_level">First level project</option>
-            <option value="second_level">Second level project</option>
+            <option value="first">First level project</option>
+            <option value="second">Second level project</option>
         </select><br/>
 
         <label for="p_detail">
@@ -66,7 +66,7 @@
 
             <div id="status"></div>
         </div>
-        <input type="hidden" id="p_pictures" name="p_pictures" />
+        <input type="hidden" id="p_pictures" name="p_pictures"/>
 
     </form>
     <button id="simple-post" onclick="submit()">+Create</button>
@@ -84,8 +84,9 @@
             multiple: true,
             onSuccess: function (files, data, xhr) {
                 $("#status").html("<font color='>Upload is success</font>");
-
-
+                var p_pictures = $("#p_pictures");
+//                alert(JSON.parse(data).fileName);
+                p_pictures.val(p_pictures.val() + ";" + JSON.parse(data).fileName);
             },
             afterUploadAll: function () {
                 alert("all images uploaded!!");
@@ -101,7 +102,7 @@
 </script>
 <script>
     //    $("#simple-post").click(function () {
-    function submit(){
+    function submit() {
         var form = $("#ajaxform");
         form.submit(function (e) {
 

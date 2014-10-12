@@ -19,75 +19,83 @@
         "index": 3,
         "active": false
     }
-], "projectSections": [
-    {
-        "caption": "first level projects",
-        "projects": [
-            {
-                "name": "kirekhar1",
-                "address": "a",
-                "thumbnail": "",
-                "imageGallery": [
-                    {
-                        "address": "a",
-                        "caption": "a"
-                    },
-                    {
-                        "address": "",
-                        "caption": ""
-                    }
-                ]
-            },
-            {
-                "name": "b",
-                "address": "b",
-                "thumbnail": "b",
-                "imageGallery": [
-                    {
-                        "address": "b",
-                        "caption": "b"
-                    },
-                    {
-                        "address": "b",
-                        "caption": "b"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "caption": "second level projects",
-        "projects": [
-            {
-                "name": "c",
-                "address": "c",
-                "thumbnail": "c",
-                "imageGallery": [
-                    {
-                        "address": "c",
-                        "caption": "c"
-                    },
-                    {
-                        "address": "c",
-                        "caption": "c"
-                    }
-                ]
-            },
-            {
-                "name": "d",
-                "address": "d",
-                "thumbnail": "d",
-                "imageGallery": [
-                    {
-                        "address": "d",
-                        "caption": "d"
-                    },
-                    {
-                        "address": "d",
-                        "caption": "d"
-                    }
-                ]
-            }
-        ]
-    }
-]}
+],
+    "projectSections": [
+        {
+            "caption": "first level projects",
+            "projects": [
+                {
+                    "name": "project1",
+                    "address": "a",
+                    "coordinates": "35.699682, 51.338336",
+                    "thumbnail": "",
+                    "imageGallery": [
+                        {
+                            "address": "a",
+                            "caption": "a"
+                        },
+                        {
+                            "address": "",
+                            "caption": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "b",
+                    "address": "b",
+                    "coordinates": "35.677682, 51.336336",
+                    "thumbnail": "b",
+                    "imageGallery": [
+                        {
+                            "address": "b",
+                            "caption": "b"
+                        },
+                        {
+                            "address": "b",
+                            "caption": "b"
+                        }
+                    ]
+                }
+
+            ]
+        },
+        {
+            "caption": "second level projects",
+            "projects": [
+                {
+                    "name": "c",
+                    "address": "c",
+                    "coordinates": "35.699382, 51.338136",
+                    "thumbnail": "c",
+                    "imageGallery": [
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        },
+                        {
+                            "address": "c",
+                            "caption": "c"
+                        }
+                    ]
+                },
+                {
+                    "name": "d",
+                    "address": "d",
+                    "coordinates": "35.399682, 51.338346",
+                    "thumbnail": "d",
+                    "imageGallery": [
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        },
+                        {
+                            "address": "d",
+                            "caption": "d"
+                        }
+                    ]
+                }
+
+            ]
+        }
+    ]
+}
