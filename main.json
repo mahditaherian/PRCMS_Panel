@@ -4,23 +4,34 @@
         "projects": [
             {
                 "name": "p1",
-                "address": "hfjklhjkhujyhwauil",
+                "address": "fyhuroiyoy",
                 "thumbnail": {
-                    "address": "Nothing yet(thumbnail)"
+                    "address": "gjkghjghk"
                 },
                 "coordinate": {
-                    "x,y": "Nothing yet(coordinate)"
+                    "x": "1324",
+                    "y": "45645"
                 },
-                "gallery": []
+                "gallery": [
+                    {
+                        "address": "chrysanthemum.jpg",
+                        "caption": "No caption available yet."
+                    },
+                    {
+                        "address": "koala.jpg",
+                        "caption": "No caption available yet."
+                    }
+                ]
             },
             {
                 "name": "p2",
-                "address": "hfjklhjkhujyhwauil",
+                "address": "fyhuroiyoy",
                 "thumbnail": {
-                    "address": "Nothing yet(thumbnail)"
+                    "address": "gjkghjghk"
                 },
                 "coordinate": {
-                    "x,y": "Nothing yet(coordinate)"
+                    "x": "1324",
+                    "y": "45645"
                 },
                 "gallery": []
             }
@@ -28,18 +39,19 @@
     },
     {
         "caption": "second",
-        "projects": [
-            {
-                "name": "p2",
-                "address": "hfjklhjkhujyhwauil",
+        "projects": {
+            "1": {
+                "name": "p1",
+                "address": "fyhuroiyoy",
                 "thumbnail": {
-                    "address": "Nothing yet(thumbnail)"
+                    "address": "gjkghjghk"
                 },
                 "coordinate": {
-                    "x,y": "Nothing yet(coordinate)"
+                    "x": "1324",
+                    "y": "45645"
                 },
                 "gallery": []
             }
-        ]
+        }
     }
 ]}

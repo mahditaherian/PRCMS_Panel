@@ -1,9 +1,5 @@
 <?php
 
-//$path = $_SERVER['DOCUMENT_ROOT'] . '/PRCMS_Panel/upload/';
-//$myfile = fopen("$path" . "newfile.txt", "w+") or die("Unable to open file!");
-//fwrite($myfile, $_POST['p_detail']);
-
 $pictureAddresses = explode(";", $_POST['p_pictures']);
 $rootPath = $_SERVER['DOCUMENT_ROOT'] . "/PRCMS_Panel/";
 $projectsAddress = 'projects/';
@@ -13,23 +9,12 @@ $projectsPath = $levelPath . $_POST['p_name'] . "/";
 make_path($projectsPath);
 
 $projectJson = makeJsonProject($pictureAddresses,$projectsPath);
-//$mainProjectFile = fopen("$projectsPath" . "main.json", "w+") or die("Unable to open file!");
-//fwrite($mainProjectFile, json_encode($projectJson));
-//fclose($mainProjectFile);
 
-$logFile = fopen("$rootPath" . "log.txt", "w+") or die("Unable to open file!");
-$log = "";
+//$logFile = fopen("$rootPath" . "log.txt", "w+") or die("Unable to open file!");
+//$log = "";
 
+$carousel = array();
 
-
-
-
-
-
-
-//////////////////////////////////////make level json//////////////////////////////
-//$siteJson = makeSiteJson($rootPath);
-//public $siteJson ;
 $path = $rootPath . "main.json";
 if (!file_exists($path)) {
     $siteFile = fopen($path, "w+") or die("Unable to open file!");
@@ -44,7 +29,6 @@ if (!file_exists($path)) {
 }
 
 
-//return $siteJson;
 $l_index = getLevelIndex($siteJson, $_POST['p_level']);
 //$log .= "$l_index\n";
 if ($l_index < 0) {
@@ -73,16 +57,8 @@ fwrite($siteFile, json_encode($siteJson));
 fclose($siteFile);
 
 
-fwrite($logFile, $log);
-fclose($logFile);
-
-
-
-
-
-
-
-
+//fwrite($logFile, $log);
+//fclose($logFile);
 
 
 function findFileName($path)
@@ -103,11 +79,6 @@ function getLevelIndex($json, $levelName)
     }
     return -1;
 }
-
-//function getProjectIndex($json, $projectName)
-//{
-//    return 0;
-//}
 
 function make_path($pathname, $is_filename = false)
 {
@@ -175,8 +146,8 @@ function makeJsonProject($pictureAddresses,$projectsPath){
     $projectJson = array();
     $projectJson["name"] = $_POST['p_name'];
     $projectJson["address"] = $_POST['p_detail'];
-    $projectJson["thumbnail"] = array("address" => "Nothing yet(thumbnail)");
-    $projectJson["coordinate"] = array("x,y" => "Nothing yet(coordinate)");
+    $projectJson["thumbnail"] = array("address" => $_POST['p_thumbnail']);
+    $projectJson["coordinate"] = array("x" => $_POST['p_coordinatex'] , "y" => $_POST['p_coordinatey']);
 
     $projectJson['gallery'] = $gallery;
     return $projectJson;
