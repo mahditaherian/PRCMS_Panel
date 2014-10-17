@@ -13,15 +13,32 @@
         }
     </style>
     <link href="<?php echo $basePath ?>source/panel/template/css/uploadfilemulti.css" rel="stylesheet">
+    <link href="<?php echo $basePath ?>source/panel/template/css/tabcontent.css" rel="stylesheet">
     <script src="<?php echo $basePath ?>source/panel/template/js/jquery-1.8.0.min.js"></script>
     <script src="<?php echo $basePath ?>source/panel/template/js/jquery.fileuploadmulti.min.js"></script>
+    <script src="<?php echo $basePath ?>source/panel/template/js/tabcontent.js"></script>
 
 </head>
 <body>
 <?php include "layout/header.php" ?>
 
-<?php //include "layout/create_form.php" ?>
-<?php include "layout/delete_form.php" ?>
+<?php include "layout/view_projects.php" ?>
+<ul class="tabs">
+    <li><a href="#view1">Create new project</a></li>
+    <li><a href="#view2">Delete project</a></li>
+    <li><a href="#view3">Update Code</a></li>
+</ul>
+<div class="tabcontents">
+    <div id="view1">
+        <?php include "layout/create_form.php" ?>
+    </div>
+    <div id="view2">
+        <?php include "layout/delete_form.php" ?>
+    </div>
+    <div id="view3">
+        <?php //include "layout/update_form.php" ?>
+    </div>
+</div>
 
 <script>
     //    $("#simple-post").click(function () {

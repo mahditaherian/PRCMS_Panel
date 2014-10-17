@@ -1,4 +1,20 @@
-<div style="padding: 100px">
+<?php
+$rootPath = $_SERVER['DOCUMENT_ROOT'] . "/PRCMS_Panel/";
+$projectsAddress = 'projects/';
+$realPath = $rootPath . $projectsAddress;
+
+$path = $rootPath . "main.json";
+if (!file_exists($path)) {
+    echo "There is no any project json file.";
+    return;
+} else {
+    $string = file_get_contents($path);
+    $siteJson = json_decode($string, true);
+    //$siteFile = fopen($path, "w+") or die("Unable to open file!");
+}
+$levelJson = $siteJson["projectSections"];
+?>
+<div >
 
 
     Create new project: <br/>
@@ -12,8 +28,11 @@
 
         <label for="p_level">Project level:</label>
         <select name="p_level" id="p_level">
-            <option value="first">First level project</option>
-            <option value="second">Second level project</option>
+
+            <?php foreach ($levelJson as $level) {
+                $caption = $level["caption"];
+                echo "<option value=\"$caption\">$caption</option>";
+            } ?>
         </select><br/>
 
         <label for="p_detail">
@@ -37,7 +56,7 @@
         </label>
         <input type="text" name="p_thumbnail" id="p_thumbnail"/><br/>
 
-        <div style="width: 500px; border: #0AF dashed thin; align-items: center; padding: 50px 50px ">
+        <div style="border: #0AF dashed thin; align-items: center; padding: 5px 5px ">
             <div id="mulitplefileuploader">Upload pictures</div>
 
             <div id="status"></div>

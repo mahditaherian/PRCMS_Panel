@@ -27,9 +27,9 @@ $levelJson = $siteJson["projectSections"];
     </select><br/>
 
 
-    <label for="p_name">Project name:</label>;
-    <input type="text" name="p_name" id="p_name"/><br/>;
+    <label for="p_name">Project name:</label>
+    <input type="text" name="p_name" id="p_name"/><br/>
 </form>
-<button id="simple-post" onclick='submit($("#ajaxform_delete"))'>+Create</button>
+<button id="simple-post" onclick='submit($("#ajaxform_delete"))'>Delete</button>
 
 
