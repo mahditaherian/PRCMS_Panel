@@ -1,7 +1,23 @@
+<?php
+$rootPath = $_SERVER['DOCUMENT_ROOT'] . "/PRCMS_Panel/";
+$projectsAddress = 'projects/';
+$realPath = $rootPath . $projectsAddress;
+
+$path = $rootPath . "main.json";
+if (!file_exists($path)) {
+    echo "There is no any project json file.";
+    return;
+} else {
+    $string = file_get_contents($path);
+    $siteJson = json_decode($string, true);
+    //$siteFile = fopen($path, "w+") or die("Unable to open file!");
+}
+$levelJson = $siteJson["projectSections"];
+?>
 <!DOCTYPE html>
 <html>
 <head>
-    <title>How to Upload multiple images jQuery Ajax using PHP | PGPGang.com</title>
+    <title>PR CMS Panel</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
     <style type="text/css">
         img {
@@ -26,7 +42,7 @@
 <ul class="tabs">
     <li><a href="#view1">Create new project</a></li>
     <li><a href="#view2">Delete project</a></li>
-    <li><a href="#view3">Update Code</a></li>
+    <li><a href="#view3">Update project</a></li>
 </ul>
 <div class="tabcontents">
     <div id="view1">
@@ -36,8 +52,9 @@
         <?php include "layout/delete_form.php" ?>
     </div>
     <div id="view3">
-        <?php //include "layout/update_form.php" ?>
+        <?php include "layout/update_form.php" ?>
     </div>
+    <?php include "layout/upload_pictures.php" ?>
 </div>
 
 <script>
