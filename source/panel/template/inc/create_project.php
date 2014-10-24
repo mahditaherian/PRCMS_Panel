@@ -1,11 +1,12 @@
 <?php
-
+echo "Go hell";
+require "JsonHelper.php";
 JsonHelper::updateSiteJson(
-    $_SERVER['p_name'],
-    $_SERVER['p_level'],
-    $_SERVER['p_pictures'],
-    $_SERVER['p_detail'],
-    $_SERVER['p_thumbnail'],
-    $_SERVER['p_coordinatex'],
-    $_SERVER['p_coordinatey']
+    $_POST['p_name'],
+    $_POST['p_level'],
+    $_POST['p_pictures'],
+    $_POST['p_detail'],
+    $_POST['p_thumbnail'],
+    $_POST['p_coordinatex'],
+    $_POST['p_coordinatey']
 );

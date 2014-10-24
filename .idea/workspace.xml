@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="17846687-9b33-45a9-9e1c-b926ba51bd6e" name="Default" comment="make">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/panel/template/layout/input_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/panel/template/layout/select_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/panel/template/layout/update_form.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/panel/template/inc/update_project.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/PRCMS_Panel.iml" afterPath="$PROJECT_DIR$/.idea/PRCMS_Panel.iml" />
+    <list default="true" id="17846687-9b33-45a9-9e1c-b926ba51bd6e" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php" afterPath="$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/layout/create_form.php" afterPath="$PROJECT_DIR$/source/panel/template/layout/create_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/inc/create_project.php" afterPath="$PROJECT_DIR$/source/panel/template/inc/create_project.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/layout/delete_form.php" afterPath="$PROJECT_DIR$/source/panel/template/layout/delete_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/inc/delete_project.php" afterPath="$PROJECT_DIR$/source/panel/template/inc/delete_project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main.json" afterPath="$PROJECT_DIR$/main.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/main.php" afterPath="$PROJECT_DIR$/source/panel/template/main.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/js/tabcontent.js" afterPath="$PROJECT_DIR$/source/panel/template/js/tabcontent.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/layout/select_form.php" afterPath="$PROJECT_DIR$/source/panel/template/layout/select_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/layout/update_form.php" afterPath="$PROJECT_DIR$/source/panel/template/layout/update_form.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/inc/update_project.php" afterPath="$PROJECT_DIR$/source/panel/template/inc/update_project.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php" afterPath="$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/panel/template/layout/view_projects.php" afterPath="$PROJECT_DIR$/source/panel/template/layout/view_projects.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="PRCMS_Panel.iws" />
@@ -83,16 +81,16 @@
       <file leaf-file-name="update_project.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/panel/template/inc/update_project.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
+            <state line="2" column="26" selection-start="58" selection-end="58" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="374">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="create_project.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/panel/template/inc/create_project.php">
+      <file leaf-file-name="sample.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/sample.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="272">
+            <state line="34" column="42" selection-start="896" selection-end="896" vertical-scroll-proportion="-16.346153" vertical-offset="153" max-vertical-offset="1802">
               <folding />
             </state>
           </provider>
@@ -101,27 +99,43 @@
       <file leaf-file-name="JsonHelper.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="34" selection-start="46" selection-end="60" vertical-scroll-proportion="0.08323134" vertical-offset="0" max-vertical-offset="2652">
+            <state line="106" column="23" selection-start="3869" selection-end="3869" vertical-scroll-proportion="3.9431071" vertical-offset="0" max-vertical-offset="4097">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="upload_pictures.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php">
+      <file leaf-file-name="update_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/panel/template/layout/update_form.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="25" selection-start="9" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="663">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="15" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="408">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delete_project.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/panel/template/inc/delete_project.php">
+      <file leaf-file-name="main.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/main.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="36" selection-start="0" selection-end="1811" vertical-scroll-proportion="-7.076923" vertical-offset="292" max-vertical-offset="1326">
+            <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/panel/template/layout/create_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="8" selection-start="295" selection-end="354" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="select_form.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/panel/template/layout/select_form.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="45" selection-start="334" selection-end="341" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
               <folding />
             </state>
           </provider>
@@ -155,22 +169,23 @@
         <option value="$PROJECT_DIR$/source/panel/template/xmlize.php" />
         <option value="$PROJECT_DIR$/source/panel/template/create_project.php" />
         <option value="$PROJECT_DIR$/source/panel/template/manage.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/inc/delete_project.php" />
-        <option value="$PROJECT_DIR$/main.json" />
-        <option value="$PROJECT_DIR$/source/panel/template/layout/view_projects.php" />
         <option value="$PROJECT_DIR$/source/panel/template/layout/upload_form.php" />
         <option value="$PROJECT_DIR$/index.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php" />
         <option value="$PROJECT_DIR$/source/panel/template/js/tabcontent.js" />
-        <option value="$PROJECT_DIR$/source/panel/template/main.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/layout/create_form.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/layout/select_form.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/layout/delete_form.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/layout/update_form.php" />
         <option value="$PROJECT_DIR$/source/panel/template/layout/input_form.php" />
-        <option value="$PROJECT_DIR$/source/panel/template/inc/update_project.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/main.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/layout/view_projects.php" />
         <option value="$PROJECT_DIR$/source/panel/template/inc/create_project.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php" />
+        <option value="$PROJECT_DIR$/sample2.json" />
+        <option value="$PROJECT_DIR$/source/panel/template/layout/delete_form.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/layout/create_form.php" />
         <option value="$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/layout/select_form.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/inc/delete_project.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/inc/update_project.php" />
+        <option value="$PROJECT_DIR$/source/panel/template/layout/update_form.php" />
+        <option value="$PROJECT_DIR$/main.json" />
       </list>
     </option>
   </component>
@@ -179,12 +194,12 @@
       <server host="127.0.0.1" name="localhost" />
     </option>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP Ver553" />
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
     <option name="width" value="1296" />
-    <option name="height" value="1040" />
+    <option name="height" value="1000" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -214,6 +229,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -276,7 +292,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
+              <option name="myItemId" value="layout" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -316,25 +332,48 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="source" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="panel" />
+              <option name="myItemId" value="second" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRCMS_Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRCMS_Panel" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="template" />
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="first" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRCMS_Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PRCMS_Panel" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="projects" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -356,6 +395,12 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="LayoutCode.rearrangeEntriesJavaScript" value="false" />
+    <property name="FullScreen" value="false" />
+    <property name="options.lastSelected" value="Configurable.PHP.Debug" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -383,15 +428,21 @@
     <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" server_name="localhost" start_url="/PRCMS_Panel">
+    <configuration default="false" name="Unnamed" type="PhpLocalRunConfigurationType" factoryName="PHP Console" path="$PROJECT_DIR$/index.php">
+      <RunnerSettings RunnerId="PhpScriptDebugRunner" />
+      <ConfigurationWrapper RunnerId="PhpScriptDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Unnamed" type="PhpWebAppRunConfigurationType" factoryName="PHP Web Application" browser="CHROME" server_name="localhost" start_url="/PRCMS_Panel">
       <RunnerSettings RunnerId="PhpRunner" />
       <RunnerSettings RunnerId="PhpWebAppDebugRunner" />
       <ConfigurationWrapper RunnerId="PhpRunner" />
       <ConfigurationWrapper RunnerId="PhpWebAppDebugRunner" />
       <method />
     </configuration>
-    <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="PHP Web Application.Unnamed" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="PHP Web Application.Unnamed" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -433,30 +484,32 @@
       <created>1413565039822</created>
       <updated>1413565039822</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="make project more clear">
+      <created>1413581535074</created>
+      <updated>1413581535074</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
     <option name="totallyTimeSpent" value="51966000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="1040" extended-state="0" />
+    <frame x="-8" y="-8" width="1296" height="1000" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39889503" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Heroku" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2536349" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25767368" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3800475" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -465,8 +518,10 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -474,10 +529,10 @@
     <layout-to-restore>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -512,11 +567,19 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="create project view table.&#10;make tabbed contents." />
-    <option name="LAST_COMMIT_MESSAGE" value="create project view table.&#10;make tabbed contents." />
+    <MESSAGE value="make project more clear" />
+    <option name="LAST_COMMIT_MESSAGE" value="make project more clear" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="3" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="php">
+          <url>file://$PROJECT_DIR$/source/panel/template/inc/create_project.php</url>
+          <line>3</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
@@ -524,6 +587,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/create_project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="0.0" vertical-offset="34" max-vertical-offset="272">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="34" selection-start="46" selection-end="60" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="25" selection-start="9" selection-end="25" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/delete_project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1326">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="27" selection-start="170" selection-end="170" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="170">
@@ -534,15 +625,6 @@
     <entry file="file://$PROJECT_DIR$/source/panel/template/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="24" column="0" selection-start="803" selection-end="803" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1020">
-          <folding>
-            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="25" selection-start="68" selection-end="73" vertical-scroll-proportion="0.0" vertical-offset="310" max-vertical-offset="1054">
           <folding />
         </state>
       </provider>
@@ -620,17 +702,13 @@
     <entry file="file://$PROJECT_DIR$/source/panel/template/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="55" column="64" selection-start="1917" selection-end="1917" vertical-scroll-proportion="0.0" vertical-offset="595" max-vertical-offset="2329">
-          <folding>
-            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833">
-          <folding />
-        </state>
+        <state line="4" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sample.json">
@@ -643,17 +721,13 @@
     <entry file="file://$PROJECT_DIR$/source/panel/template/main.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2312">
-          <folding>
-            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="816" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client_input.php">
@@ -673,16 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/upload.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/upload_file.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="184" selection-end="184" vertical-scroll-proportion="0.100354195" vertical-offset="0" max-vertical-offset="847">
-          <folding />
-        </state>
+        <state line="4" column="8" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0" vertical-offset="68" max-vertical-offset="833" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/js/jquery.form.js">
@@ -699,36 +764,9 @@
         <state line="7" column="9" selection-start="77" selection-end="77" vertical-scroll-proportion="0.24335378" vertical-offset="0" max-vertical-offset="489" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/sample.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="453" selection-end="453" vertical-scroll-proportion="0.0" vertical-offset="374" max-vertical-offset="1802">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/layout/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/view_projects.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="542" selection-end="542" vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="799">
-          <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
-            <marker date="1413564458224" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1413564458224" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="17" selection-start="85" selection-end="93" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="1054">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="515" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/js/jquery.fileuploadmulti.min.js">
@@ -740,104 +778,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/js/tabcontent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="35" column="22" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.7238443" vertical-offset="0" max-vertical-offset="2261">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
+        <state line="35" column="22" selection-start="1689" selection-end="1689" vertical-scroll-proportion="0.7238443" vertical-offset="0" max-vertical-offset="2261" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/css/uploadfilemulti.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7688622" vertical-offset="1477" max-vertical-offset="2312">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-1.7688622" vertical-offset="1477" max-vertical-offset="2312" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="270" selection-end="270" vertical-scroll-proportion="0.18930958" vertical-offset="0" max-vertical-offset="449">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/select_form.php">
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/upload_file.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.25216317" vertical-offset="0" max-vertical-offset="809">
+        <state line="4" column="33" selection-start="162" selection-end="162" vertical-scroll-proportion="0.15144767" vertical-offset="0" max-vertical-offset="680">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/delete_form.php">
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/upload_directory.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="834" selection-end="834" vertical-scroll-proportion="0.24578314" vertical-offset="0" max-vertical-offset="830">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="837">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/create_form.php">
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="4" selection-start="41" selection-end="72" vertical-scroll-proportion="0.040963855" vertical-offset="0" max-vertical-offset="830">
+        <state line="911" column="9" selection-start="27122" selection-end="27122" vertical-scroll-proportion="0.35321102" vertical-offset="15333" max-vertical-offset="19567">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/delete_project.php">
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/view_projects.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="36" selection-start="0" selection-end="1811" vertical-scroll-proportion="-7.076923" vertical-offset="292" max-vertical-offset="1326">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/update_form.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="54" selection-start="569" selection-end="569" vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="374">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="25" selection-start="9" selection-end="25" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="663">
+        <state line="24" column="17" selection-start="683" selection-end="683" vertical-scroll-proportion="-5.8846154" vertical-offset="255" max-vertical-offset="799">
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+            <marker date="1414182348613" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/layout/input_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="104" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.8615575" vertical-offset="0" max-vertical-offset="809">
+        <state line="41" column="104" selection-start="1442" selection-end="1442" vertical-scroll-proportion="1.2271715" vertical-offset="146" max-vertical-offset="799">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample2.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="81" column="2" selection-start="2510" selection-end="2510" vertical-scroll-proportion="-52.96154" vertical-offset="0" max-vertical-offset="1479">
+          <folding>
+            <marker date="1414185078414" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1414185078414" expanded="true" signature="-1:-1" placeholder="[...]" />
+            <marker date="1414185078414" expanded="true" signature="-1:-1" placeholder="{&quot;caption&quot;: &quot;second&quot;...}" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="20" selection-start="1585" selection-end="1585" vertical-scroll-proportion="0.99254656" vertical-offset="0" max-vertical-offset="1156">
-          <folding>
-            <element signature="tag#script#0;tag#body#0;tag#html#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="32" selection-start="202" selection-end="202" vertical-scroll-proportion="0.061445784" vertical-offset="0" max-vertical-offset="830">
+        <state line="55" column="32" selection-start="1815" selection-end="1815" vertical-scroll-proportion="0.83296216" vertical-offset="561" max-vertical-offset="1615">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/update_project.php">
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/upload_pictures.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="119">
+        <state line="5" column="0" selection-start="193" selection-end="193" vertical-scroll-proportion="0.18930958" vertical-offset="0" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sample.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="42" selection-start="896" selection-end="896" vertical-scroll-proportion="-16.346153" vertical-offset="153" max-vertical-offset="1802">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/delete_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="52" selection-start="860" selection-end="860" vertical-scroll-proportion="0.3617021" vertical-offset="0" max-vertical-offset="470">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/inc/create_project.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="19" selection-start="26" selection-end="26" vertical-scroll-proportion="-0.6666667" vertical-offset="0" max-vertical-offset="272">
+        <state line="3" column="0" selection-start="48" selection-end="257" vertical-scroll-proportion="0.108510636" vertical-offset="0" max-vertical-offset="470">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/create_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="8" selection-start="295" selection-end="354" vertical-scroll-proportion="-4.576923" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/select_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="45" selection-start="334" selection-end="341" vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/layout/update_form.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="0" selection-start="634" selection-end="634" vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="408">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="901">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/delete_project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="127" selection-end="127" vertical-scroll-proportion="0.19101124" vertical-offset="0" max-vertical-offset="1241">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/panel/template/inc/update_project.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="26" selection-start="58" selection-end="58" vertical-scroll-proportion="-1.3076923" vertical-offset="0" max-vertical-offset="374">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/panel/template/inc/JsonHelper.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="34" selection-start="46" selection-end="60" vertical-scroll-proportion="0.08323134" vertical-offset="0" max-vertical-offset="2652">
+        <state line="106" column="23" selection-start="3869" selection-end="3869" vertical-scroll-proportion="3.9431071" vertical-offset="0" max-vertical-offset="4097">
           <folding />
         </state>
       </provider>

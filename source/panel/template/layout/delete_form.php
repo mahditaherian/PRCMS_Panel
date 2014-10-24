@@ -21,6 +21,7 @@
       action="<?php echo $basePath ?>source/panel/template/inc/delete_project.php"
       method="POST">
     <?php include "select_form.php" ?>
+    <input type="submit" value="DELETE....Without ajax">
 </form>
 <button id="simple-post" onclick='submit($("#ajaxform_delete"))'>Delete</button>
 

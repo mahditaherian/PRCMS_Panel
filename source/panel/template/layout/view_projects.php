@@ -19,7 +19,7 @@ $levelsJson = $siteJson["projectSections"];
 <table align="center" style="width: 50%; border: 1px dashed #00AAFF;" >
 
     <?php
-
+    if(is_array($levelsJson)){
     foreach ($levelsJson as $level) {
         $projectsJson = $level["projects"];
         $caption = $level["caption"];
@@ -37,6 +37,6 @@ $levelsJson = $siteJson["projectSections"];
                 "</tr>";
         }
 
-    }
+    }}
     ?>
 </table>

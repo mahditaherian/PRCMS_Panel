@@ -3,7 +3,7 @@
 
     <div id="status"></div>
 </div>
-<input type="hidden" id="p_pictures" name="p_pictures"/>
+
 <script>
     //////////////////////////FILE UPLOADER SCRIPT///////////////////////////////////////
     $(document).ready(function () {

@@ -5,14 +5,15 @@ $realPath = $rootPath . $projectsAddress;
 
 $path = $rootPath . "main.json";
 if (!file_exists($path)) {
-    echo "There is no any project json file.";
-    return;
+//    echo "There is no any project json file.";
+//    return;
+    $siteJson = array();
 } else {
     $string = file_get_contents($path);
     $siteJson = json_decode($string, true);
     //$siteFile = fopen($path, "w+") or die("Unable to open file!");
+    $levelJson = $siteJson["projectSections"];
 }
-$levelJson = $siteJson["projectSections"];
 ?>
 <!DOCTYPE html>
 <html>

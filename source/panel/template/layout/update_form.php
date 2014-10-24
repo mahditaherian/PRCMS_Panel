@@ -11,6 +11,8 @@
         <?php $formID = "updateform";
 
         include "input_form.php" ?>
+        <input type="text" id="p_pictures" name="p_pictures"/><br/>
+        <input type="submit" value="Update without Ajax.....">
     </form>
-    <button id="simple-post" onclick='submit($("#updateform"))'>+Create</button>
+    <button id="simple-post" onclick='submit($("#<?php echo $formID ?>"))'>+Create</button>
 </div>
